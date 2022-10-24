@@ -1,0 +1,484 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+section {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    overflow: hidden;
+
+
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115.5%;
+    grid-column: 3 / 10;
+
+}
+
+
+nav {
+    margin-bottom: 0;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+
+
+}
+
+
+.logo-recherche {
+    width: 30px;
+    height: 30px;
+}
+
+.barre-recherche {
+    width: 117px;
+    height: 30px;
+
+}
+
+.recherche {
+    display: inline-block;
+    margin-top: 1rem;
+
+
+}
+
+.navi {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-left: solid;
+    border-right: solid;
+    padding: 0.8rem;
+}
+
+.intro {
+    padding: 0;
+    display: flex;
+    height: 80vh;
+    position: relative;
+   
+}
+
+.text{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decouvrez {
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 15rem;
+
+
+}
+
+.musee {
+    
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 140%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+
+    color: #FFFFFF;
+
+
+}
+
+.ouvert {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 3rem;
+
+}
+
+.photo-facade {
+    filter: brightness(40%);
+    opacity: 95%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+
+
+}
+
+.billeterie {
+
+    width:200px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 0.7rem;
+    color: black;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 4.5rem;
+    margin-right: 2rem;
+}
+
+
+.billet {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: #8A8A8A;
+    grid-column: 3 /12;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+button {
+
+    border-radius: 2rem;
+    border: solid;
+    color: black;
+    background-color: transparent;
+    height:50px;
+    width: 150px;
+    margin-right: auto;
+    font-size: 15px;
+    
+
+}
+
+.butt-voir {
+    grid-column: 10/11;
+    margin: auto;
+
+}
+
+
+.butblanc {
+    color: #FFFFFF;
+    background-color: transparent;
+
+}
+
+.nadja{
+
+    background-color: #377ea2;
+
+}
+
+.splide{
+    height: 100%;
+    grid-column: 2/12;
+}
+
+.splide__slide img{
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.splide__slide {
+    height:80vh;
+}
+
+
+.date-nadja {
+
+
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}
+
+
+.nadja-titre {
+
+    z-index: 2;
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+
+    color: #FFFFFF;
+
+
+}
+
+.text-nadja{
+
+z-index: 2;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.dec-button {
+
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+
+
+
+
+}
+
+.boite-evt {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color:#377ea2;
+
+}
+
+.img-evt {
+
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+
+
+
+}
+
+.text-evt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-left:auto;
+    grid-column: 2/10;
+
+}
+
+.titre-evt {
+
+    font-family: 'Lora', serif;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 30px;
+    
+    
+}
+
+.hor-evt{
+
+border-top: solid;
+color: #FFFFFF;
+padding-bottom: 2rem;
+padding-top: 0.3rem;
+
+}
+
+.evenements{
+
+    margin-top: 5rem;
+    background-color: #377ea2;
+    color: #FFFFFF;
+}
+
+.planning  {
+    color: #FFFFFF;
+    font-size: 20px;
+    grid-column: 10/12;
+    margin-top: 3rem;
+}
+
+.butplanning{
+    width: 200px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.img-cour{
+
+    margin-top: 5rem;
+    
+}
+
+.collec{
+
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color:#377ea2 ;
+
+
+}
+
+.text-collec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+footer {
+
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    width: 100%;
+
+}
+
+.liens-footer a {
+    color: #FFFFFF;
+}
+
+
+
+.nos-musees {
+
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #FFFFFF;
+    grid-column: 1/12;
+    top: 6925px;
+}
+
+.plan-site {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 280%;
+    color: whitesmoke;
+    grid-column: 7/12;
+    margin-top: -29rem;
+
+}
+
+.plus-infos {
+    border-radius: 1rem;
+    border: solid;
+    color: whitesmoke;
+    background-color: transparent;
+    height: 40px;
+    width: 170px;
+    grid-column: 11;
+    margin-top: 8rem;
+    
+
+}
+
+.adresse {
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    grid-column: 5/10;
+    font-size: 20px;
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-column: 11;
+    margin-top: -32rem;
+    margin-left: 1.7rem;
+}
+
+.log {
+    padding: 1.5rem;
+    width: 5rem;
+
+}
